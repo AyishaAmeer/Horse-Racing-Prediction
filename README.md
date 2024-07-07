@@ -1,3 +1,5 @@
+**HORSE RACE PREDICTION**
+
 1. **Introduction**:
  
    This project aims to predict horse racing outcomes using machine learning techniques. The dataset includes detailed information on horse races and individual horses from 2014 to 2017.
