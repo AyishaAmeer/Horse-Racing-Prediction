@@ -7,35 +7,35 @@
    
    The dataset consists of two main types of files: races and horses, each available for every year from 2014 to 2017.
 
-  -finishing_position   :  The rank of the horse. (E.g. the horse with finishing_position 1 is the first to finish).
+   -finishing_position   :  The rank of the horse. (E.g. the horse with finishing_position 1 is the first to finish).
   
-  -horse_number         :  The number for the horse in the specific race. (Note that the same horse may have different numbers in different races).
+   -horse_number         :  The number for the horse in the specific race. (Note that the same horse may have different numbers in different races).
   
-  -horse_name           :  English name of the horse.
+   -horse_name           :  English name of the horse.
   
-  -horse_id             :  ID of the horse. (The ID for a horse is unique in all the races).
+   -horse_id             :  ID of the horse. (The ID for a horse is unique in all the races).
   
-  -jockey               :  The one who rides the horse in the race. (A jockey can ride different horses in the races).
+   -jockey               :  The one who rides the horse in the race. (A jockey can ride different horses in the races).
   
-  -trainer              :  The one who trains the horse. (Multiple horses from a trainer can appear in the same race).
+   -trainer              :  The one who trains the horse. (Multiple horses from a trainer can appear in the same race).
   
-  -actual_weight        :  The extra weight that a horse carries in the race. (The horses with better performances in the previous races will carry extra weights to make the race more competitive)
+   -actual_weight        :  The extra weight that a horse carries in the race. (The horses with better performances in the previous races will carry extra weights to make the race more competitive)
   
-  -declared_horse_weight:  The weight of the horse on date of the race.
+   -declared_horse_weight:  The weight of the horse on date of the race.
   
-  -draw                 :  The position of the horse at the starting point. The inner positions are usually advantageous and correspond to smaller draw numbers.
+   -draw                 :  The position of the horse at the starting point. The inner positions are usually advantageous and correspond to smaller draw numbers.
   
-  -length_behind_winner :  The length behind the winner at the finish line. The unit is “horse length”.
+   -length_behind_winner :  The length behind the winner at the finish line. The unit is “horse length”.
   
-  -running_position_i   :  The rank of the horse at the i-th timing point. (The running position will be “NA” if the total distance of the race is short and the horses do not cross the particular timing point)
+   -running_position_i   :  The rank of the horse at the i-th timing point. (The running position will be “NA” if the total distance of the race is short and the horses do not cross the particular timing point)
   
-  -finish_time          :  The total time from the starting point to the finish line. The unit is in seconds.
+   -finish_time          :  The total time from the starting point to the finish line. The unit is in seconds.
   
-  -win_odds             :  The multiplier of the amount you bet to be received if you win. THe odds are usually determined automatically by the total money bet on each horse.
+   -win_odds             :  The multiplier of the amount you bet to be received if you win. THe odds are usually determined automatically by the total money bet on each horse.
   
-  -race_id              :  The ID of the race for this entry. The race_id is consistent in the two data files.
+   -race_id              :  The ID of the race for this entry. The race_id is consistent in the two data files.
   
-  -race_distance        :  The race distance in metres for each race.
+   -race_distance        :  The race distance in metres for each race.
 
 3. **Project Goals**:
    
