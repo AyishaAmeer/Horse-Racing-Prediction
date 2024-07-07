@@ -39,9 +39,13 @@
 
 3. **Project Goals**:
    
-   Primary Goal   : To predict the outcome of horse races (e.g., win or place).
+   Primary Goal   :
+
+                    To predict the outcome of horse races (e.g., win or place).
    
-   Secondary Goals: To identify significant features affecting race outcomes.
+   Secondary Goals:
+
+                    To identify significant features affecting race outcomes.
    
                     To explore the imbalanced nature of the dataset and develop techniques to handle it.
    
@@ -49,51 +53,72 @@
 
 5. **Data Preprocessing**:
    
-   Data Cleaning       : Handle missing values.
+   Data Cleaning       :
+
+                         Handle missing values.
    
                          Normalize data where necessary (e.g., times, distances).
    
                          Convert categorical variables to numerical representations (e.g., encoding country codes, race conditions).
    
-   Feature Engineering : Create new features based on existing data (e.g., performance metrics from past races).
+   Feature Engineering :
+
+                         Create new features based on existing data (e.g., performance metrics from past races).
    
                          Aggregate features across multiple races to capture trends.
    
-   Data Integration    : Merge race and horse datasets on rid to create a comprehensive dataset for analysis.
+   Data Integration    :
+
+                         Merge race and horse datasets on rid to create a comprehensive dataset for analysis.
 
 7. **Exploratory Data Analysis (EDA)**:
    
-   Descriptive Statistics :  Summary statistics of key features.
+   Descriptive Statistics :
+
+                             Summary statistics of key features.
    
                              Distribution plots of continuous variables.
    
-   Correlation Analysis   :  Correlation matrix to identify relationships between features.
+   Correlation Analysis   :
+
+                             Correlation matrix to identify relationships between features.
    
                              Feature importance analysis using mutual information and other techniques.
 
-   Visualization          :  Scatter plots, histograms, and box plots to visualize data distribution.
+   Visualization          :
+
+                             Scatter plots, histograms, and box plots to visualize data distribution.
    
                              Heatmaps for correlation visualization.
 9. **Modeling Approach**:
     
-   Model Selection         :  Evaluate various machine learning models (e.g.,Regression, Random Forest, Gradient Boosting).
+   Model Selection         :
+
+                              Evaluate various machine learning models (e.g.,Regression, Random Forest, Gradient Boosting).
    
                               Use cross-validation to assess model performance.
    
-   Handling Imbalanced Data:  Use techniques such as SMOTE (Synthetic Minority Over-sampling Technique), under-sampling, and class weight adjustments.
+   Handling Imbalanced Data:
+
+                              Use techniques such as SMOTE (Synthetic Minority Over-sampling Technique), under-sampling, and class weight adjustments.
    
-   Feature Selection       :  Recursive Feature Elimination (RFE).
+   Feature Selection       :
+
+                              Recursive Feature Elimination (RFE).
    
                               Regularization techniques to reduce model complexity and prevent overfitting.
    
-   Hyperparameter Tuning   :  Grid search and random search for optimal hyperparameters.
+   Hyperparameter Tuning   :
+
+                              Grid search and random search for optimal hyperparameters.
 
 11. **Conclusion**:
     
-   This project seeks to make predictions on the outcome of horse races through both classification and regression models.
+      This project seeks to make predictions on the outcome of horse races through both classification and regression models.
 
-   -For classification models, we aim to predict the winner and top 3 positions of a race.
+      -For classification models, we aim to predict the winner and top 3 positions of a race.
    
-   -For regression models, we aim to predict the finish time of the horses, hereby predicting the winner of the race.
+      -For regression models, we aim to predict the finish time of the horses, hereby predicting the winner of the race.
    
-   With the prediction results, we will make bets using different strategies to profit from the horse race. Backtesting results of each model will also show the number of bets and profit made from each strategy.
+      With the prediction results, we will make bets using different strategies to profit from the horse race.
+      Backtesting results of each model will also show the number of bets and profit made from each strategy.
