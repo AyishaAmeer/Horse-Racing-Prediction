@@ -62,6 +62,7 @@
    Data Integration    : Merge race and horse datasets on rid to create a comprehensive dataset for analysis.
 
 7. **Exploratory Data Analysis (EDA)**:
+   
    Descriptive Statistics :  Summary statistics of key features.
    
                              Distribution plots of continuous variables.
@@ -74,6 +75,7 @@
    
                              Heatmaps for correlation visualization.
 9. **Modeling Approach**:
+    
    Model Selection         :  Evaluate various machine learning models (e.g.,Regression, Random Forest, Gradient Boosting).
    
                               Use cross-validation to assess model performance.
@@ -87,6 +89,7 @@
    Hyperparameter Tuning   :  Grid search and random search for optimal hyperparameters.
 
 11. **Conclusion**:
+    
    This project seeks to make predictions on the outcome of horse races through both classification and regression models.
 
    -For classification models, we aim to predict the winner and top 3 positions of a race.
